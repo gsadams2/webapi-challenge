@@ -26,13 +26,26 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+1. express is a framework for Node that has a lot of features
+
+2. express allows us to write HTTP handlers at different URL paths
+
 - [ ] Describe Middleware?
+
+Middleware is useful for handling the request-response cycle. These middleware functions have access
+to the request, the response, and the next.
 
 - [ ] Describe a Resource?
 
+Resources is where we perform the CRUD operations. For example, this project's resources were the actions and projects
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+API's return response objects through json and status codes that send a message tellin g the client that the request was successful
+
 - [ ] How can we partition our application into sub-applications?
+
+We do this by separating all the resources into separate routes
 
 ## Project Setup
 
